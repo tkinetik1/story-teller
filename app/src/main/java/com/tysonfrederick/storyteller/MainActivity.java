@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- package com.google.firebase.example.fireeats;
+ package com.tysonfrederick.storyteller;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
