@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- package com.google.firebase.example.fireeats.adapter;
+ package com.tysonfrederick.storyteller.adapter;
 
 import android.content.res.Resources;
 import android.support.v7.widget.RecyclerView;
@@ -24,9 +24,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.google.firebase.example.fireeats.R;
-import com.google.firebase.example.fireeats.model.Restaurant;
-import com.google.firebase.example.fireeats.util.RestaurantUtil;
+import com.tysonfrederick.storyteller.R;
+import com.tysonfrederick.storyteller.model.Restaurant;
+import com.tysonfrederick.storyteller.util.RestaurantUtil;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.Query;
 

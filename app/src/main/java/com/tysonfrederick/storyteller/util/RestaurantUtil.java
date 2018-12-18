@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- package com.google.firebase.example.fireeats.util;
+ package com.tysonfrederick.storyteller.util;
 
 import android.content.Context;
 
-import com.google.firebase.example.fireeats.R;
-import com.google.firebase.example.fireeats.model.Restaurant;
+import com.tysonfrederick.storyteller.R;
+import com.tysonfrederick.storyteller.model.Restaurant;
 
 import java.util.Arrays;
 import java.util.Locale;
@@ -42,25 +42,25 @@ public class RestaurantUtil {
     private static final int MAX_IMAGE_NUM = 22;
 
     private static final String[] NAME_FIRST_WORDS = {
-            "Foo",
-            "Bar",
-            "Baz",
-            "Qux",
-            "Fire",
-            "Sam's",
-            "World Famous",
-            "Google",
-            "The Best",
+            "Dangerous",
+            "Beautiful",
+            "Foggy",
+            "Happy",
+            "Lonely",
+            "Compassionate",
+            "Mysterious",
+            "Enchanted",
+            "Ancient",
     };
 
     private static final String[] NAME_SECOND_WORDS = {
-            "Restaurant",
-            "Cafe",
-            "Spot",
-            "Eatin' Place",
-            "Eatery",
-            "Drive Thru",
-            "Diner",
+            "Travels",
+            "Universe",
+            "Moonlight",
+            "Breezeway",
+            "Place",
+            "Building",
+            "Lair",
     };
 
 

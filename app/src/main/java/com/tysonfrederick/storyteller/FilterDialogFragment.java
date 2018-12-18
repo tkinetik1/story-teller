@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- package com.google.firebase.example.fireeats;
+ package com.tysonfrederick.storyteller;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -24,7 +24,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Spinner;
 
-import com.google.firebase.example.fireeats.model.Restaurant;
+import com.tysonfrederick.storyteller.model.Restaurant;
 import com.google.firebase.firestore.Query;
 
 import butterknife.BindView;

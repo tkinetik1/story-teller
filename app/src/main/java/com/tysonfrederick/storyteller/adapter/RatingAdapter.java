@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- package com.google.firebase.example.fireeats.adapter;
+ package com.tysonfrederick.storyteller.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -21,8 +21,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.google.firebase.example.fireeats.R;
-import com.google.firebase.example.fireeats.model.Rating;
+import com.tysonfrederick.storyteller.R;
+import com.tysonfrederick.storyteller.model.Rating;
 import com.google.firebase.firestore.Query;
 
 import butterknife.BindView;

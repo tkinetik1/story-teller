@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- package com.google.firebase.example.fireeats;
+ package com.tysonfrederick.storyteller;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -34,10 +34,10 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.tasks.Tasks;
-import com.google.firebase.example.fireeats.adapter.RatingAdapter;
-import com.google.firebase.example.fireeats.model.Rating;
-import com.google.firebase.example.fireeats.model.Restaurant;
-import com.google.firebase.example.fireeats.util.RestaurantUtil;
+import com.tysonfrederick.storyteller.adapter.RatingAdapter;
+import com.tysonfrederick.storyteller.model.Rating;
+import com.tysonfrederick.storyteller.model.Restaurant;
+import com.tysonfrederick.storyteller.util.RestaurantUtil;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;

@@ -1,114 +1,113 @@
 <resources>
-    <string name="app_name">Friendly Eats</string>
+    <string name="app_name">Story Teller</string>
 
-    <string name="value_any_category">All food</string>
-    <string name="value_any_city">Anywhere</string>
-    <string name="value_any_price">Any price</string>
+    <string name="value_any_category">All stories</string>
+    <string name="value_any_city">All locations</string>
+    <string name="value_any_price">Any point of view</string>
 
-    <string name="price_1">$</string>
-    <string name="price_2">$$</string>
-    <string name="price_3">$$$</string>
+    <string name="price_1">1st person</string>
+    <string name="price_2">2nd person</string>
+    <string name="price_3">3rd person</string>
 
-    <string name="label_category">Category</string>
-    <string name="label_city">City</string>
-    <string name="label_price">Price</string>
-    <string name="label_sort_by">Sort By</string>
+    <string name="label_category">Story type</string>
+    <string name="label_city">Location</string>
+    <string name="label_price">Point of view</string>
+    <string name="label_sort_by">Search By</string>
 
     <string name="fmt_num_ratings" translatable="false">(%d)</string>
-    <string name="all_restaurants">All Restaurants</string>
+    <string name="all_restaurants">All Stories</string>
     <string name="header_filters">Filter</string>
     <string name="search">Search</string>
 
-    <string name="sort_by_rating">Sort by Rating</string>
+    <string name="sort_by_rating">Search by Rating</string>
     <string name="sort_by_popularity">Sort by Popularity</string>
-    <string name="sort_by_price">Sort by Price</string>
+    <string name="sort_by_price">Sort by Point of view</string>
 
-    <string name="sorted_by_rating">sorted by rating</string>
-    <string name="sorted_by_price">sorted by price</string>
+    <string name="sorted_by_rating">sorted by story type</string>
+    <string name="sorted_by_price">sorted by Point of view</string>
     <string name="sorted_by_popularity">sorted by popularity</string>
 
-    <string name="add_random_items">Add Random Items</string>
+    <string name="add_random_items">Add Random Stories</string>
     <string name="sign_out">Sign Out</string>
     <string name="delete_all">Delete All</string>
     <string name="divider_bullet">•</string>
     <string name="apply">Apply</string>
     <string name="cancel">Cancel</string>
-    <string name="message_no_results">Oops, couldn\'t find any results\nthat matched your filter</string>
+    <string name="message_no_results">Oops, couldn\'t find any results\nthat matched your search</string>
     <string name="message_no_reviews">Be the first to leave a review!</string>
-    <string name="hint_review">How was your experience?</string>
+    <string name="hint_review">What do you think of this story?</string>
     <string name="submit">Submit</string>
-    <string name="filter_add_review">Add review</string>
+    <string name="filter_add_review">Add story review</string>
 
     <!-- Types of food I could think of in 5 minutes -->
     <string-array name="categories">
         <item>@string/value_any_category</item>
 
-        <item>Brunch</item>
-        <item>Burgers</item>
-        <item>Coffee</item>
-        <item>Deli</item>
-        <item>Dim Sum</item>
-        <item>Indian</item>
-        <item>Italian</item>
-        <item>Mediterranean</item>
-        <item>Mexican</item>
-        <item>Pizza</item>
-        <item>Ramen</item>
-        <item>Sushi</item>
+        <item>Fable</item>
+        <item>Fairytale</item>
+        <item>Science Fiction</item>
+        <item>Fantasy</item>
+        <item>Medievil</item>
+        <item>Adventure</item>
+        <item>Mystery</item>
+        <item>Mythology</item>
+        <item>Conflict</item>
+        <item>Family</item>
+        <item>Friends</item>
+        <item>Drama</item>
     </string-array>
     ite
 
     <!-- 50 most populous cities in the US -->
     <string-array name="cities">
         <item>@string/value_any_city</item>
-
-        <item>Albuquerque</item>
-        <item>Arlington</item>
-        <item>Atlanta</item>
-        <item>Austin</item>
-        <item>Baltimore</item>
-        <item>Boston</item>
-        <item>Charlotte</item>
-        <item>Chicago</item>
-        <item>Cleveland</item>
-        <item>Colorado Springs</item>
-        <item>Columbus</item>
-        <item>Dallas</item>
-        <item>Denver</item>
-        <item>Detroit</item>
-        <item>El Paso</item>
-        <item>Fort Worth</item>
-        <item>Fresno</item>
-        <item>Houston</item>
-        <item>Indianapolis</item>
-        <item>Jacksonville</item>
-        <item>Kansas City</item>
-        <item>Las Vagas</item>
-        <item>Long Beach</item>
-        <item>Los Angeles</item>
-        <item>Louisville</item>
-        <item>Memphis</item>
-        <item>Mesa</item>
-        <item>Miami</item>
-        <item>Milwaukee</item>
-        <item>Nashville</item>
-        <item>New York</item>
-        <item>Oakland</item>
-        <item>Oklahoma</item>
-        <item>Omaha</item>
-        <item>Philadelphia</item>
-        <item>Phoenix</item>
-        <item>Portland</item>
-        <item>Raleigh</item>
-        <item>Sacramento</item>
-        <item>San Antonio</item>
-        <item>San Diego</item>
-        <item>San Francisco</item>
-        <item>San Jose</item>
-        <item>Tucson</item>
-        <item>Tulsa</item>
-        <item>Virginia Beach</item>
-        <item>Washington</item>
+        <item>Astronomy Center</item>
+        <item>Aquarium</item>
+        <item>Ballroom</item>
+        <item>Bank</item>
+        <item>Caravan</item>
+        <item>Carwash</item>
+        <item>Countryside</item>
+        <item>City</item>
+        <item>Colony</item>
+        <item>Dance Floor</item>
+        <item>Downtown</item>
+        <item>Dungeon</item>
+        <item>Dragon Lair</item>
+        <item>Enchanted Forest</item>
+        <item>Family Room</item>
+        <item>Forest</item>
+        <item>Harbor</item>
+        <item>Hospital</item>
+        <item>Indian Reservation</item>
+        <item>Jungle Gym</item>
+        <item>Kitchen</item>
+        <item>Launchpad</item>
+        <item>Lake</item>
+        <item>Laundry-mat</item>
+        <item>Lawn</item>
+        <item>Lagoon</item>
+        <item>Mountain</item>
+        <item>Market</item>
+        <item>Metropolitan</item>
+        <item>Mansion</item>
+        <item>Nursery</item>
+        <item>Old House</item>
+        <item>Office</item>
+        <item>Outer Space</item>
+        <item>Park</item>
+        <item>Peak</item>
+        <item>Plains</item>
+        <item>Playground</item>
+        <item>Space Portal</item>
+        <item>Sandwich Shop</item>
+        <item>Sand Dunes</item>
+        <item>Seaside</item>
+        <item>Store</item>
+        <item>Typhoon</item>
+        <item>Tornado</item>
+        <item>Vampire Lair</item>
+        <item>Workplace</item>
     </string-array>
 
     <!-- Price filters -->

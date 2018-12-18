@@ -34,8 +34,11 @@ import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.example.fireeats.adapter.RestaurantAdapter;
-import com.google.firebase.example.fireeats.viewmodel.MainActivityViewModel;
+import com.google.firebase.firestore.CollectionReference;
+import com.tysonfrederick.storyteller.adapter.RestaurantAdapter;
+import com.tysonfrederick.storyteller.model.Restaurant;
+import com.tysonfrederick.storyteller.util.RestaurantUtil;
+import com.tysonfrederick.storyteller.viewmodel.MainActivityViewModel;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
@@ -102,7 +105,8 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     private void initFirestore() {
-        // TODO(developer): Implement
+        // TODO(developer): Implement - Implemented TF
+        mFirestore = FirebaseFirestore.getInstance();
     }
 
     private void initRecyclerView() {
@@ -165,7 +169,16 @@ public class MainActivity extends AppCompatActivity implements
 
     private void onAddItemsClicked() {
         // TODO(developer): Add random restaurants
-        showTodoToast();
+        //Get a reference to the restaurants (soon to be stories)
+        CollectionReference restaurants = mFirestore.collection("restaurants");
+
+        for (int i = 0; i < 10; i++) {
+            //Get a random Restaurant (Soon to be story) POJO
+            Restaurant restaurant = RestaurantUtil.getRandom(this);
+
+            //Add a new document to the restaurants(Soon to be stories) collection
+            restaurants.add(restaurant);
+        }
     }
 
     @Override
