@@ -1,5 +1,5 @@
 # Friendly Eats converted to Story Teller by Tyson Frederick (To be Continued...)
-
+#First commit to github from MacOS local branch
 
 
 This is the source code that accompanies the Firestore Android Codelab:
