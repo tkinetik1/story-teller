@@ -57,10 +57,10 @@ public class RestaurantUtil {
             "Travels",
             "Universe",
             "Moonlight",
-            "Breezeway",
+            "Land",
             "Place",
-            "Building",
-            "Lair",
+            "Downtown",
+            "Lair"
     };
 
 
