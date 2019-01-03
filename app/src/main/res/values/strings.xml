@@ -43,20 +43,24 @@
     <string-array name="categories">
         <item>@string/value_any_category</item>
 
-        <item>Fable</item>
-        <item>Fairytale</item>
-        <item>Science Fiction</item>
+        <item>Tragedy</item>
+        <item>Science fiction</item>
         <item>Fantasy</item>
+        <item>Mythology</item>
         <item>Medievil</item>
         <item>Adventure</item>
         <item>Mystery</item>
         <item>Mythology</item>
-        <item>Conflict</item>
-        <item>Family</item>
-        <item>Friends</item>
         <item>Drama</item>
+        <item>Romance</item>
+        <item>Satire</item>
+        <item>Horror</item>
+        <item>Tragic comedy</item>
+        <item>Romance</item>
+        <item>Satire</item>
+        <item>Dystopia</item>
+        <item>Thriller</item>
     </string-array>
-    ite
 
     <!-- 50 most populous cities in the US -->
     <string-array name="cities">
@@ -66,7 +70,6 @@
         <item>Ballroom</item>
         <item>Bank</item>
         <item>Caravan</item>
-        <item>Carwash</item>
         <item>Countryside</item>
         <item>City</item>
         <item>Colony</item>
@@ -74,40 +77,34 @@
         <item>Downtown</item>
         <item>Dungeon</item>
         <item>Dragon Lair</item>
-        <item>Enchanted Forest</item>
-        <item>Family Room</item>
         <item>Forest</item>
         <item>Harbor</item>
         <item>Hospital</item>
-        <item>Indian Reservation</item>
-        <item>Jungle Gym</item>
+        <item>Gym</item>
         <item>Kitchen</item>
         <item>Launchpad</item>
         <item>Lake</item>
         <item>Laundry-mat</item>
-        <item>Lawn</item>
         <item>Lagoon</item>
         <item>Mountain</item>
         <item>Market</item>
         <item>Metropolitan</item>
         <item>Mansion</item>
         <item>Nursery</item>
-        <item>Old House</item>
+        <item>Past Home</item>
         <item>Office</item>
         <item>Outer Space</item>
         <item>Park</item>
         <item>Peak</item>
         <item>Plains</item>
         <item>Playground</item>
-        <item>Space Portal</item>
-        <item>Sandwich Shop</item>
+        <item>Portal</item>
         <item>Sand Dunes</item>
         <item>Seaside</item>
         <item>Store</item>
         <item>Typhoon</item>
         <item>Tornado</item>
-        <item>Vampire Lair</item>
-        <item>Workplace</item>
+        <item>Vampire Den</item>
     </string-array>
 
     <!-- Price filters -->
