@@ -44,13 +44,15 @@ public class RestaurantUtil {
     private static final String[] NAME_FIRST_WORDS = {
             "Dangerous",
             "Beautiful",
-            "Foggy",
             "Happy",
-            "Lonely",
+            "The Frozen",
             "Compassionate",
-            "Mysterious",
+            "Destiny",
             "Enchanted",
             "Ancient",
+            "Wild",
+            "Dark",
+            "Light"
     };
 
 
@@ -59,11 +61,19 @@ public class RestaurantUtil {
     private static final String[] NAME_SECOND_WORDS = {
             "Travels",
             "Universe",
-            "Moonlight",
-            "Land",
-            "Place",
-            "Downtown",
-            "Lair"
+            "Winter",
+            "of Time",
+            "Boy",
+            "Girl",
+            "Healer",
+            "of the Night",
+            "the Elusive",
+            "of the Sun",
+            "of the Moons",
+            "of Stardust",
+            "of Space",
+            "Emperor",
+            "Wizard"
     };
 
 
