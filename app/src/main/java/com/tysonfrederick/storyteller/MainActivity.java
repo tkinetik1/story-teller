@@ -107,6 +107,11 @@ public class MainActivity extends AppCompatActivity implements
     private void initFirestore() {
         // TODO(developer): Implement - Implemented TF
         mFirestore = FirebaseFirestore.getInstance();
+
+        //Get the 50 Highest Rated Restaurants (Stories to be implemented throughout code)
+        mQuery = mFirestore.collection("restaurants")
+                .orderBy("avgRating", Query.Direction.DESCENDING)
+                .limit(LIMIT);
     }
 
     private void initRecyclerView() {
