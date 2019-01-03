@@ -129,12 +129,12 @@ public class RestaurantUtil {
     public static String getPriceString(int priceInt) {
         switch (priceInt) {
             case 1:
-                return "$";
+                return "First-person";
             case 2:
-                return "$$";
+                return "Second-person";
             case 3:
             default:
-                return "$$$";
+                return "Third-person";
         }
     }
 
