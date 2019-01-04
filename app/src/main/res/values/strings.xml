@@ -21,10 +21,10 @@
 
     <string name="sort_by_rating">Search by Rating</string>
     <string name="sort_by_popularity">Sort by Popularity</string>
-    <string name="sort_by_price">Sort by Point of view</string>
+    <string name="sort_by_price">Sort by Point of View</string>
 
     <string name="sorted_by_rating">sorted by story type</string>
-    <string name="sorted_by_price">sorted by Point of view</string>
+    <string name="sorted_by_price">sorted by point of view</string>
     <string name="sorted_by_popularity">sorted by popularity</string>
 
     <string name="add_random_items">Add Random Stories</string>
@@ -34,10 +34,10 @@
     <string name="apply">Apply</string>
     <string name="cancel">Cancel</string>
     <string name="message_no_results">Oops, couldn\'t find any results\nthat matched your search</string>
-    <string name="message_no_reviews">Be the first to leave a story!</string>
-    <string name="hint_review">Once upon a time...</string>
+    <string name="message_no_reviews">Be the first to create a story!</string>
+    <string name="hint_review">Once upon a time ...</string>
     <string name="submit">Submit</string>
-    <string name="filter_add_review">Add new story</string>
+    <string name="filter_add_review">Create a new story</string>
 
     <!-- Types of food I could think of in 5 minutes -->
     <string-array name="categories">
