@@ -25,9 +25,13 @@
 
     <EditText
         android:id="@+id/restaurant_form_text"
+        android:lines="8"
+        android:minLines="6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="top|left"
+        android:maxLines="10"
+        android:scrollbars="vertical"
         android:hint="@string/hint_review" />
 
     <LinearLayout
