@@ -34,10 +34,10 @@
     <string name="apply">Apply</string>
     <string name="cancel">Cancel</string>
     <string name="message_no_results">Oops, couldn\'t find any results\nthat matched your search</string>
-    <string name="message_no_reviews">Be the first to leave a review!</string>
-    <string name="hint_review">What do you think of this story?</string>
+    <string name="message_no_reviews">Be the first to leave a story!</string>
+    <string name="hint_review">Once upon a time...</string>
     <string name="submit">Submit</string>
-    <string name="filter_add_review">Add story review</string>
+    <string name="filter_add_review">Add new story</string>
 
     <!-- Types of food I could think of in 5 minutes -->
     <string-array name="categories">
